@@ -1,6 +1,6 @@
 # NgxGoogleForms
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2.
+This workspace houses a collection of UI libraries with components that look, feel & behave like google forms so that your users can enjoy a familiar experience in the apps you build.
 
 ## Development server
 

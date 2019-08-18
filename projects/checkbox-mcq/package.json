@@ -4,6 +4,9 @@
   "description": "This library aims to provide UI components that look & feel like google forms.",
   "peerDependencies": {
     "@angular/common": "^8.0.3",
-    "@angular/core": "^8.0.3"
+    "@angular/core": "^8.0.3",
+    "@angular/cdk": "~8.1.3",
+    "@angular/material": "^8.1.3",
+    "hammerjs": "^2.0.8"
   }
 }
