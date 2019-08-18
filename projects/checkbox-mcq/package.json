@@ -1,0 +1,9 @@
+{
+  "name": "ngx-google-forms-checkbox-mcq",
+  "version": "0.0.2",
+  "description": "This library aims to provide UI components that look & feel like google forms.",
+  "peerDependencies": {
+    "@angular/common": "^8.0.3",
+    "@angular/core": "^8.0.3"
+  }
+}
