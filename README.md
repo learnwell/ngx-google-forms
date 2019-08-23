@@ -1,10 +1,29 @@
-# NgxGoogleForms
+# ngx-google-forms
 
 This workspace houses a collection of UI libraries with components that look, feel & behave like google forms so that your users can enjoy a familiar experience in the apps you build.
 
-## Development server
+## Development
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+There is a wealth of information on how each milestone on our roadmap was accomplished from inception to completion. You can find it all in the nicely documented [closed issues](https://github.com/learnwell/ngx-google-forms/pulls?q=is%3Apr+is%3Aclosed).
+
+Treat them as "How Tos" and make sure to search them for what you may need code-wise or process-wise.
+
+### Dynamic
+
+To actively develop the UI library while testin its look & feel in the tester application:
+
+1. Build the UI libary and watch it for any changes to trigger automatic rebuilds:
+
+    ```
+    ng build checkbox-mcq --watch
+    ```
+1. Build the tester application and serve it:
+
+    ```
+    ng build google-forms-tester --prod && \
+      ng serve google-forms-tester
+    ```
+1. Open `http://localhost:4200` on your local browser.
 
 ## Code scaffolding
 

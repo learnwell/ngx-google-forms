@@ -11,7 +11,12 @@ Run `ng generate component component-name --project checkbox-mcq` to generate a 
 
 ## Build
 
-Run `ng build checkbox-mcq` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. The build artifacts will be stored in the `dist/` directory.
+
+    ```
+    npm run build_checkbox_mcq
+    npm run pack_checkbox_mcq
+    ```
 
 ## Publishing
 

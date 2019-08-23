@@ -1,0 +1,20 @@
+<!-- BEGIN: ANSWER KEY MODE-->
+<mat-card>
+
+  <mat-card-title>
+    {{ poll.content }}
+  </mat-card-title>
+
+  <mat-card-content>
+    <mat-selection-list>
+      <mat-list-option
+        *ngFor="let option of poll.options"
+        [selected]="option.correct"
+        >
+        {{ option.content }}
+      </mat-list-option>
+    </mat-selection-list>
+  </mat-card-content>
+
+</mat-card>
+<!-- END: ANSWER KEY MODE-->
