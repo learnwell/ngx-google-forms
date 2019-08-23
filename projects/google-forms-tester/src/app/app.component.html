@@ -1,4 +1,8 @@
-<div *ngFor="let question of questions">
-  <ngx-google-forms-checkbox-mcq [poll]="question">
-  </ngx-google-forms-checkbox-mcq>
+<div
+  fxLayout="column" fxLayoutGap="20px"
+  >
+  <div *ngFor="let question of questions">
+    <ngx-google-forms-checkbox-mcq [poll]="question">
+    </ngx-google-forms-checkbox-mcq>
+  </div>
 </div>
